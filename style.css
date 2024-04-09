@@ -1,0 +1,84 @@
+/* enabled globally */
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Cinzel, Arial, Helvetica, sans-serif;
+}
+
+/* header container */
+.header {
+  height: 80px;
+  width: 100%;
+  background-color: #800;
+  display: flex;
+}
+
+/* pup-logo inside header */
+img {
+  height: 65px;
+  width: 65px;
+  margin-left: 20px;
+  margin-top: 8px;
+}
+
+/* paragraph inside header */
+.header p {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin: 30px 0 30px 10px;
+  font-weight: 700;
+  letter-spacing: 0em;
+}
+
+/* container for lyrics and audio */
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+
+/* lyrics container */
+#lyrics-container {
+  text-align: left;
+  height: 300px;
+  width: 500px;
+  overflow-y: scroll;
+  border: 1px solid rgb(155, 155, 155);
+  margin-top: 20px;
+  padding: 20px;
+  font-size: 25px;
+  transition: scroll-behavior 1s ease-in-out;
+}
+
+/* audio container */
+#audio-container {
+  text-align: center;
+  background-color: black;
+  border-radius: 60px;
+  margin: 20px 0 20px 0;
+}
+
+/* footer container */
+.footer {
+  height: 65px;
+  width: 100%;
+  font-weight: 700;
+  letter-spacing: 0em;
+  text-align: center;
+  background-color: rgb(226, 226, 226);
+}
+
+/* paragraph inside footer */
+.footer p {
+  padding: 25px 0 0 0;  
+  font-weight: lighter;
+}
+
+/* style for the highlight of current lyrics */
+.highlight {
+  font-weight: bold;
+  padding: 20px 0 10px 0;
+}
+
+/*Developed by Stefen Labinay | BSCS 3-5 */
